@@ -1,0 +1,59 @@
+.containerMobile {
+    min-width: 480px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Headers + Navbar */
+img {
+    margin: 11px;
+    max-width: 200px;
+    max-height: 43px;
+    padding:0;
+}
+
+.header {
+}
+
+.navbar {
+    display: flex;
+    max-height: 64px;
+    justify-content: space-between;
+    background: #4B6043;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+.navbar i {
+    align-items: center;
+    color: white;
+    margin:16px;
+    font-size: 32px;
+    
+}
+
+/* Formulários de input */
+
+.titulo {
+    text-align: center;
+    border-top: 1px solid #658354;
+    margin: 13px 31px 0px 31px
+}
+
+.form {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    display:grid;
+    flex-direction: column;
+    justify-content: center;
+}
+
