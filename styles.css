@@ -1,7 +1,8 @@
 .containerMobile {
     min-width: 480px;
-    color: white;
     border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /* Headers + Navbar */
@@ -22,6 +23,7 @@ img {
     background: #4B6043;
     overflow: hidden;
     padding: 0;
+    
 
 }
 
@@ -38,22 +40,40 @@ img {
 .titulo {
     text-align: center;
     border-top: 1px solid #658354;
-    margin: 13px 31px 0px 31px
-}
+    margin: 13px 31px 0px 31px;
+    font-size: 14px;
 
-.form {
-    display: flex;
+    
 }
 
 .form {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 31px 0px 31px;
+    border-bottom: 1px solid #658354;
 }
 
-.form-group {
-    display:grid;
-    flex-direction: column;
-    justify-content: center;
+.form-group input{
+    width: 238px;
+    height: 54px;
+    display: grid;
+    background-color: #4B6043;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #C7DDB5;
+    margin: 13px;
+
+}
+
+.form-group input::placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+.form i {
+    align-items: center;
+    color: #4B6043;
+    font-size: 40px; 
 }
 

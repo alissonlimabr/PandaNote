@@ -10,62 +10,67 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="containerMobile">
-        <header class="header">
-            <nav class = "navbar">
-                <!-- Logo -->
-                <div id="Logo">
-                <img src="assets/logo.png" alt="">
+            <header class="header">
+                <nav class = "navbar">
+                    <!-- Logo -->
+                    <div id="Logo">
+                    <img src="assets/logo.png" alt="">
+                    </div>
+                    <!-- Ícone menu -->
+                        <i class="fa fa-bars"></i>
+                </nav>
+        
+            </header>
+        
+                <!-- Título -->
+                <div class="titulo">
+                    <h1>
+                        Salve seus sites favoritos
+                    </h1>
                 </div>
-                <!-- Ícone menu -->
-                    <i class="fa fa-bars"></i>
+                <!-- Form -->
+                <div class="form">
+                    <div class="form-group">
+                        <input type="text" class="nameSite" placeholder="Qual o nome do site?">
+                        <input type="text" class="linkSite" placeholder="Digite o link do site.">
+                    </div>
+                    <div>
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    </div>
                 </div>
-            </nav>
-    
-        </header>
-    
-            <!-- Título -->
-            <div class="titulo">
-                <h1>
-                    Salve seus sites favoritos
-                </h1>
-            </div>
-            <!-- Form -->
-            <div class="form">
-                <div class="form-group">
-                    <input type="text" class="nameSite" placeholder="Qual o nome do site?">
-                    <input type="text" class="linkSite" placeholder="Digite o link do site.">
-                </div>
-                <i class="fa fa-plus-square" aria-hidden="true"></i>
-            </div>
 
-            <!-- Sites Favoritos -->
-            <div class="Container">
-                <div class="favDiv">>
-                    <ul id="FavGroup">
-                        <li>
-                            <a href="https://www.google.com" target="_blank">Google</a>
-                            <span>
-                                <i class="fa fa-trash" aria-hidden="true"></i>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com" target="_blank">Facebook</a>
-                            <span>
-                                <i class="fa fa-trash" aria-hidden="true"></i>
-                            </span>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com" target="_blank">Twitter</a>
-                            <span>
-                                <i class="fa fa-trash" aria-hidden="true"></i>
-                            </span>
-                        </li>
-                    </ul>
+                <!-- Sites Favoritos -->
+                <div class="Container">
+                    <div class="favDiv">
+                        <ul id="FavGroup">
+                            <li>
+                                <a href="https://www.google.com" target="_blank">Google</a>
+                                <span>
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                                <span>
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                                <span>
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
