@@ -19,14 +19,16 @@
 <body>
     <div class="containerMobile">
             <header>
-                <nav class = "navbar">
-                    <!-- Logo -->
-                    <div class="logo">
-                    <img src="assets/logo.png" alt="PandaNote">
-                    </div>
-                    <!-- Ícone menu -->
-                        <i class="fa fa-bars"></i>
-                </nav>
+                <div class="header">
+                    <nav class = "navbar">
+                        <!-- Logo -->
+                        <div class="logo">
+                        <img src="assets/logo.png" alt="PandaNote">
+                        </div>
+                        <!-- Ícone menu -->
+                            <i class="fa fa-bars"></i>
+                    </nav>
+                </div>
         
             </header>
 
@@ -39,12 +41,11 @@
                 </div>
                 <!-- Form -->
                 <div class="form">
-                    <div class="form-group">
-                        <input type="text" class="nameSite" placeholder="Qual o nome do site?">
-                        <input type="text" class="linkSite" placeholder="Digite o link do site.">
+                    <div id="form-group">
+                        <input type="text" placeholder="Google, https://www.google.com">
                     </div>
                     <div>
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        <i class="fa fa-plus-square" aria-hidden="true"></i>
                     </div>
                 </div>
 
@@ -53,37 +54,31 @@
                     <h1> Lista de sites salvos</h1>
                     <div class="favGroup">
                         <ul>
-                            <li>
-                                <span>
-                                    <!-- span temporário -->
-                                </span>
-                                <a href="https://www.google.com" target="_blank">Google</a>
+                            <div id="favList">
+                                <li>
+                                    <a href="https://www.google.com" target="_blank">Google</a>
+                                </li>
                                 <span class="btnRemove">
-                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
                                 </span>
-                            </li>
-
-
-                            <li>
-                                <span>
-                                    <!-- span temporário -->
-                                </span>
-                                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                            </div>
+                            <div id="favList">
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                                </li>
                                 <span class="btnRemove">
-                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
                                 </span>
-                            </li>
-
+                            </div>
+                            <div id="favList">
                             <li>
-                                <span>
-                                    <!-- span temporário -->
-                                </span>
                                 <a href="https://www.twitter.com" target="_blank">Twitter</a>
-                                <span class="btnRemove">
-                                    <i class="fa fa-trash" aria-hidden="true"></i>
-                                </span>
-                            </li>
 
+                            </li>
+                            <span class="btnRemove">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                            </span>
+                            </div>
                         </ul>
                     </div>
                 </div>

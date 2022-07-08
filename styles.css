@@ -1,23 +1,26 @@
 .containerMobile {
     font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 }
 
 /* Navbar */
+.header {
+    background: #4B6043;
+
+}
 
 .logo img {
     margin: 11px;
     max-width: 200px;
     max-height: 43px;
-    padding:0;
+    padding:0px;
 }
 
 .navbar {
     display: flex;
-    max-height: 64px;
     justify-content: space-between;
-    background: #4B6043;
     overflow: hidden;
-    padding: 0;
+    padding: 0px;
     
 
 }
@@ -26,6 +29,7 @@
     align-items: center;
     color: white;
     margin:16px;
+    padding-right: 10px;
     font-size: 32px;
     
 }
@@ -35,40 +39,48 @@
 .titulo {
     text-align: center;
     border-top: 1px solid #658354;
-    margin: 13px 31px 0px 31px;
-    font-size: 14px;   
+    margin: 20px
+}
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0px;
 }
 
 .form {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    margin: 0px 31px 0px 31px;
-    border-bottom: 1px solid #658354;
-    padding-left: 1.7rem;
+    padding: 0px;
+    margin: 20px;
+
 }
 
-.form-group input{
-    width: 238px;
-    height: 54px;
-    display: grid;
-    background-color: #4B6043;
-    border-radius: 20px;
-    text-align: center;
+#form-group input{
+    width: 240px;
+    height: 50px;
+    background-color: #658354;
+    border-radius: 10px;
     border: 1px solid #C7DDB5;
-    margin: 13px;
+    margin-left: 20px;
+    
 
 }
 
-.form-group input::placeholder {
+#form-group input::placeholder {
     color: white;
     opacity: 1;
+    text-align: center;
+    justify-content: center;
+    text-weight: 700;
+    font-size: 14px;
   }
 
 .form i {
-    align-items: flex-start;
     color: #4B6043;
-    font-size: 40px;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Lita de favoritos */
@@ -76,16 +88,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
+    border-top: 1px solid #658354;
+    margin: 20px;
 
 }
 
 .favGroup {
     display: flex;
     padding: 20px;
-    background: #4B6043;
+    background: #658354;
     border-radius: 10px;
     justify-content: center;
+    min-width: 280px;
+}
+
+#favList {
+    display: flex;
+    align-items: center;
 }
 
 ul {
@@ -100,14 +119,14 @@ ul {
 
 li {
     display:flex;
-    width: 290px;
+    min-width: 220px;
     height: 40px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 10px 0px 10px;
     background-color: #C7DDB5;
     border: 1px solid #C7DDB5;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 a {
@@ -118,15 +137,16 @@ a {
 
 }
 .btnRemove {
-    font-size: 25px;
-    color: #4B6043; 
+    font-size: 32px;
+    color: #FFFF; 
+    padding-left: 15px;
 }
 
 
 /* Descrição */
 
 .description {
-    margin: 26px 43px 18px 43px;
+    margin: 20px 35px 20px 35px;
     font-size: 10px;
     text-align: justify;
 }
