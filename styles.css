@@ -5,15 +5,13 @@
 
 }
 
-/* Headers + Navbar */
-img {
+/* Navbar */
+
+.logo img {
     margin: 11px;
     max-width: 200px;
     max-height: 43px;
     padding:0;
-}
-
-.header {
 }
 
 .navbar {
@@ -41,9 +39,7 @@ img {
     text-align: center;
     border-top: 1px solid #658354;
     margin: 13px 31px 0px 31px;
-    font-size: 16px;
-
-    
+    font-size: 14px;   
 }
 
 .form {
@@ -52,6 +48,7 @@ img {
     align-items: center;
     margin: 0px 31px 0px 31px;
     border-bottom: 1px solid #658354;
+    padding-left: 2rem;
 }
 
 .form-group input{
@@ -72,28 +69,26 @@ img {
   }
 
 .form i {
-    align-items: center;
+    align-items: flex-start;
     color: #4B6043;
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 /* Lita de favoritos */
-.favDiv {
+.containerFav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
 
 }
 
-div.favGroup {
+.favGroup {
     display: flex;
-    width: 366px;
     padding: 20px;
     background: #4B6043;
     border-radius: 10px;
     justify-content: center;
-
-
 }
 
 ul {
@@ -112,21 +107,56 @@ li {
     height: 40px;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
     background-color: #C7DDB5;
     border: 1px solid #C7DDB5;
     border-radius: 20px;
 }
 
-.btnRemove {
-    font-size: 28px;
-    color: #4B6043;
-    
+a {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;  
+
 }
+.btnRemove {
+    font-size: 25px;
+    color: #4B6043; 
+}
+
 
 /* Descrição */
 
 .description {
-
+    margin: 26px 43px 18px 43px;
+    font-size: 10px;
+    text-align: justify;
+}
+.rowDescription {
+    display: flex;
+    justify-content: center;
 }
 
+h2 {
+    font-weight: 400;
+}
+ 
+/* Footer */
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    height: 133px;
+    background-color: #4B6043;
+    bottom: 0px;
+    color: white;
+}
+
+.containerFooter img {
+    max-width: 200px;
+    max-height: 43px;
+    padding:0;
+}
