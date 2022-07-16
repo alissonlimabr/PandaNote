@@ -8,7 +8,7 @@
 #
 ### 👉  Descrição do projeto
 
-  <p>Desafio proposto durante a disciplina de Programação Avançada Front-End, cujo objetivo foi criar uma página de cadastro de sites favoritos, usando HTML/CSS (puro) e seguindo conceito de MobileFirst, com responsividade para Tablets e Desktops. </p>
+  <p>Desafio proposto durante a disciplina de Programação Avançada Front-End, cujo objetivo foi criar uma página de cadastro de sites favoritos, usando HTML/CSS (puro) e seguindo o conceito de MobileFirst, com responsividade para Tablets e Desktops. </p>
 
 ### 🎁 Protótipo do site
 
