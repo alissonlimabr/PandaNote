@@ -1,5 +1,5 @@
 <h1 align="center">PandaNote </h1>
-<p align="center">🚀 Projeto desenvolvido na disciplina de Programação Avançada do WebAcademy</p>
+<p align="center">🚀 Projeto desenvolvido na disciplina de Programação Avançada do WebAcademy - UFAC/Motorola</p>
 
 <h4 align="center"> 
 	 🐛 Em construção...  
