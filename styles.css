@@ -277,6 +277,16 @@ h1 {
     text-decoration: none;  
 
 }
+
+#favList li:hover {
+    
+    background: transparent;
+    transition: 0.4s;
+    color: white;
+    border: #75975e 1px solid;
+    
+
+}
 .btnRemove {
     font-size: 32px;
     color: #FFFF; 
